@@ -36,4 +36,8 @@ class Evento {
         this.nome= j;
     }
 
+    public String toString(){
+        String all =  nome+" - "+Integer.toString(ocorrencia.getDia())+"/"+Integer.toString(ocorrencia.getMes())+"/"+Integer.toString(ocorrencia.getAno());
+        return all; 
+    }
 }

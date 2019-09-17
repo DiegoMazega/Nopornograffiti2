@@ -27,9 +27,4 @@ class Data{
     public int getAno() {
         return this.ano;
     }
-
-    public String toString(){
-        String all;
-        return all = Interger.toString(dia)+"/"+Interger.toString(mes)+"/"+Interger.toString(ano); 
-    }
 }

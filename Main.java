@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 class Main{
 
         public static void main(String[] args){
@@ -9,9 +9,7 @@ class Main{
             silencio.setNome("silencio");
             silencio.setOcorrencia(16, 9, 2019);
             
-            System.out.printf("%s", silencio.getOcorrencia().toString());
+            System.out.printf("%s%n", silencio);
 
-
-            in.close();
         }
 }
